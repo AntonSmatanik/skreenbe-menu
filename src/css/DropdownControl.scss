@@ -1,0 +1,37 @@
+.dropdown-control {
+    .dropdown-toggle {
+        color: #ffffff;
+        background-color: #2d1e2e;
+        border-radius: 0.75rem;
+        padding: 0.25rem 1.5rem 0.25rem 0.25rem;
+        width: 8rem;
+    
+        &:hover {
+            color: #2d1e2e;
+            background-color: #ffffff;
+        }
+
+        &::before {
+            content: '\23F7';
+            border: 0;
+            position: relative;
+            left: 6.25rem;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: #241525;
+        padding: 0;
+        margin: 0;
+        min-width: 0;
+    
+        .dropdown-item {
+            color: #ffffff;
+        }
+    
+        .dropdown-item:hover {
+            background-color: #cb5678;
+            cursor: pointer;
+        }
+    }
+}

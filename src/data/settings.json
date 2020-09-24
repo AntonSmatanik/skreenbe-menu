@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "text": "Language",
+        "type": "dropdown",
+        "code": "language"
+    },
+    {
+        "id": 2,
+        "text": "Sounds",
+        "type": "switch",
+        "code": "Sounds"
+    },
+    {
+        "id": 3,
+        "text": "Cam / mic test",
+        "type": "link",
+        "code": "https://www.csfd.cz/film/236957-duna/prehled/"
+    },
+    {
+        "id": 4,
+        "text": "Notifications",
+        "type": "switch",
+        "code": "Notifications"
+    },
+    {
+        "id": 5,
+        "text": "Color variations (customize)",
+        "type": "dropdown",
+        "code": "color"
+    },
+    {
+        "id": 6,
+        "text": "FAQ",
+        "type": "link",
+        "code": "https://www.csfd.cz/film/693159-tenet/prehled/"
+    }
+]

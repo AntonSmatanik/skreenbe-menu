@@ -1,0 +1,51 @@
+.customized-menu {
+    border-radius: 0.5rem;
+    background-color: #281929;
+    padding: 0;
+
+    &.show {
+        display: flex;
+        top: 2.5rem !important;
+        right: -2.25rem !important;
+    }
+
+    .menu-setting {
+        float: left;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .settingLabel {
+            color: #948c94;
+            font-style: italic;
+            text-align: center;
+        }
+    }
+
+    .menu-list {
+        float: right;
+        background-color: #241525;
+        padding: 0;
+        margin: 0;
+        border-radius: 0 0.5rem 0.5rem 0;
+
+        .dropdown-item {
+            color: #ffffff;
+            font-weight: 800;
+        }
+
+        .dropdown-item:hover {
+            background-color: #cb5678;
+            cursor: pointer;
+        }
+
+        .dropdown-item:first-child {
+            border-radius: 0 0.5rem 0 0;
+        }
+
+        .dropdown-item:last-child {
+            border-radius: 0 0 0.5rem 0;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.react-switch {
+    box-shadow: 0 0 0.5rem #1e0e1e;
+
+    .unchecked-icon {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 100%;
+        color: #ec4b57;
+        font-style: italic;
+        font-weight: 800;
+    }
+
+    .checked-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: #23b743;
+        font-style: italic;
+        font-weight: 800;
+    }
+}
